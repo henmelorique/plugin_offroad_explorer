@@ -1,0 +1,4 @@
+Alterações v3:
+- Gera <base>_accum_filled.tif e <base>_direction_filled.tif (NULL->0) apenas para visualização.
+- Carrega *_accum_filled.tif e *_direction_filled.tif com seus QMLs.
+- Processamento (r.cost/r.drain) segue com rasters originais (barreira NULL).

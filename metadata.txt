@@ -1,0 +1,28 @@
+# This file contains metadata for your plugin.
+# Mandatory items:
+
+[general]
+name=Off-Road Explorer
+qgisMinimumVersion=3.10
+description=Off-Road Explorer: rota de menor custo com Adequado/Restritivo/Impeditivo (GRASS r.cost/r.drain).
+icon=icons/icon_route.png
+version=1.1.2
+author=3° Sgt João Pedro, 3° Sgt Yuri e 3° Sgt Jorge Silva.
+email=none@example.com
+about=Atribui custos às classes Adequado/Restritivo/Impeditivo, mescla as três camadas e converte os polígonos em raster de custo por meio da rasterização (com resolução definida). Define o CRS de trabalho e executa o r.cost para gerar o custo acumulado e a direção de movimento; em seguida, executa o r.drain para criar a rota de menor custo (mais adequada) a partir dessas saídas. Reprojeta a rota e os pontos inicial/final e carrega todas as saídas no projeto. (Origem/Destino podem ser informados por camada de pontos ou por clique no mapa).
+
+# Recommended items:
+hasProcessingProvider=yes
+tags=least cost path, grass, r.cost, r.drain, routing, trafegabilidade, lcp, brazil
+homepage=
+category=Analysis
+# icon=images/icon.png
+
+# experimental flag
+experimental=False
+
+# deprecated flag
+deprecated=False
+
+# If the plugin can run on QGIS Server.
+server=False
